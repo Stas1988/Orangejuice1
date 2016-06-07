@@ -1,0 +1,151 @@
+body {
+	font-family: sans-serif;
+}
+/*NAVIGATION*/
+.container-fluid {
+	padding: 25px;
+	background-color: #FE7E00;
+}
+.navbar-brand {
+	padding-left: 100px;
+}
+.navbar-default .navbar-brand{
+	font-size: 25px;
+	color: #FCA659;
+}
+.navbar-brand span {
+	color: #FEEFD0;
+}
+.navbar-default .navbar-nav>li>a  {
+	color: #FFC77C;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #FEEFD0;
+}
+/*nav {
+	background-color: #FE7E00;
+		
+}
+.logo {
+	text-decoration: none;
+	float: left;
+}
+.logo h1 {
+	margin-left: 100px;
+	color: #FCA659;	
+}
+.logo h1 span {
+	color: #FEEFD0;
+}
+nav ul {
+	float: right;
+	padding-top: 20px;
+
+}
+nav ul li {
+	display: inline;
+	padding: 20px;
+	
+}
+nav ul li a {
+	text-decoration: none;
+	color: #FFC77C;
+}
+nav ul li a:hover {
+	color: #FEEFD0;
+}*/
+/*SEARCH BAR*/
+.search input {
+	width: 200px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #ccc;
+	font-size: 16px;
+	background-color: white;
+	background-image: url(../img/searchicon.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 12px;
+
+}
+.search {
+	float: right;
+	margin-right: 25px; 
+}
+section {
+	display: inline-block;
+}
+.img {
+	width: 50%;
+	margin-top: 100px;
+	float: left;
+}
+.text h1{
+	/*float: right;*/
+	height: 150px;
+	/*width: 35%;*/
+	font-size: 25px;
+	margin-top: 100px;
+	/*margin-right: 35px;*/
+	color: #E1D2C1;
+	letter-spacing: 4px;
+	text-align: center;
+	
+}
+.text span {
+	color: #D0884C;
+}
+.text .color {
+	color: #7BCAC6;
+}
+
+/*BUTTONS*/
+/*.button {
+	display: inline;
+	
+}*/
+.first-button {
+	background-color: #FE7E00;
+	color: #FFC886;
+	text-decoration: none;
+	border: none;
+	padding: 20px; 
+	font-size: 16px;
+	display: inline;
+	margin-left: 50px;
+	width: 30%;
+	border-radius: 10px;
+}
+.second-button {
+	background-color: #7BCAC6;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	padding: 20px;
+	font-size: 16px;
+	display: inline;
+	margin-left: 80px;
+	width: 30%;
+	border-radius: 10px;
+}
+
+/*FOOTER*/
+/*.footer {
+	background-color: #7BCAC6;
+	height: 100px;
+	width: 100%;
+	margin-top: 100px;
+}*/
+/*====MEDIA QUERIES====*/
+@media (max-width: 1250px) {
+	/*.text {
+		float: none;
+		/*width: 35%;*/
+		margin-top: 0;
+		text-align: center;
+	}*/
+	.img {
+		padding-top: 10px;
+		width: 80%;
+		margin: 0;
+	}
+}
